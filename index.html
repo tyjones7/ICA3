@@ -1,0 +1,112 @@
+<!-- Name: Tyler Jones-->
+<!-- Assignment: HW2-->
+<!-- Date: Jan 18th, 2025-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>Spiderman Fandom</title>
+</head>
+<body>
+   <!-- header -->
+    <section id="header-section">
+        <h1>Spider-Man</h1>  
+    </section>
+
+    <!-- description about the movie -->
+    <section id="description-section">
+        <h2>About the movie</h2>
+        <p>Spiderman is about a teenager named Peter Parker. After getting bit by a spider he gains superhuman power with senses similar to that of a spider. Now he must save the world because with his <span class="underline-text">great power comes great responsibility.</span></p>
+        
+        <a href="https://www.disneyplus.com/movies/spider-man-homecoming/4cLMEzWGqQaG" target="_blank">
+            <img class="image-style" src="./spidermanhomecoming.jpeg" width="500" height="auto" alt="Spiderman Homecoming">
+        </a>
+    </section>
+
+    <!-- facts about the movie -->
+    <section id="fact-section">
+        <h3>Characters</h3>
+        <ul>
+            <li>
+                <span id="main-character">Peter Parker</span> (main character of the movies)
+            </li>
+            <li>Tony Stark</li>
+            <li>MJ</li>
+        </ul>
+        <img class="image-style" src="peterparkerandtonystark.jpeg" width="300" height="auto" alt="Tony Stark talking to Peter Parker">
+
+        <h3>Movies in the Sequence</h3>
+        <ol>
+            <li>Spider-Man Homecoming</li>
+            <li>
+                <span id="favorite-movie">Spider-Man Far From Home</span> (my favorite movie of the series)
+            </li>
+            <li>Spider-Man No Way Home</li>
+        </ol>
+
+        <img class="image-style" src="spiderman-on-the-bridge.jpeg" width="300" height="auto" alt="Spider-Man standing on the bridge in Spider-Man No Way Home">
+
+        <h3>Quotes</h3>
+        <blockquote>
+            <q>With great power comes great responsibility.</q> (Spider-Man No Way Home)
+            <br>
+            <br>
+            - Aunt May
+        </blockquote>
+        <br>
+
+    <!-- new HTML element table -->
+        <div>
+            <table class="table-style-general">
+                <tr class="rows-colored">
+                    <th>Movie Title</th>
+                    <th>Release Date</th>
+                    <th>Grossed Revenue</th>
+                </tr>
+                <tr>
+                    <td>Spider-Man Homecoming</td>
+                    <td>July 7, 2017</td>
+                    <td>$880.9 million</td>
+                </tr>
+                <tr class="rows-colored">
+                    <td>Spider-Man Far From Home</td>
+                    <td>July 2, 2019</td>
+                    <td>$1.13 billion</td>
+                </tr>
+                <tr>
+                    <td>Spider-Man No Way Home</td>
+                    <td>December 17, 2021</td>
+                    <td>$1.92 billion</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/_5CTg5asoC0?si=QUpAu7LozQumBEDB" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+        <br>
+        <br>
+        <code>console.log("Spidey Senses")</code>
+        <br>
+        <br>
+        <p>
+            Thank you for reading this page about the great <span style="color: red;">Spider-Man</span>!
+        </p>
+    </section>
+    <button onclick="scrollToTop()">Back to Top</button>
+
+    <script>
+        function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' })}
+    </script>
+</body>
+</html>

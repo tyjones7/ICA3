@@ -1,0 +1,62 @@
+/* ./styles.css */
+
+body {
+    background-color: #c0bdbd;
+    color: #272626;
+    font-family: 'Helvetica', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+} 
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+section > p
+section > blockquote {
+    line-height: 1.5;
+}
+
+#main-character {
+    font-weight: 600;
+}
+
+ol > li > span#favorite-movie {
+    font-style: italic;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.07em;
+}
+
+section#description-section, 
+section#fact-section {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#description-section img {
+    max-width: 100%;
+    min-height: 120%;
+}
+
+.table-style-general {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #000;
+    text-align: left;
+}
+
+.rows-colored {
+    background-color: #dddddd;
+}
+
+.image-style {
+    border-radius: 25px;
+    box-shadow: 7px 7px 10px red;
+}
